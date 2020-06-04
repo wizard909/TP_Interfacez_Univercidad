@@ -1,0 +1,35 @@
+.cabeza{
+    position: absolute;
+    width: 1440px;
+    height: 151px;
+    left: 0px;
+    top: -1px;
+}
+
+.frame5{
+    position: absolute;
+    width: 625px;
+    left: 401px;
+    top: 234px;
+    bottom: 213px;
+
+    border: 1px solid #E6E8E7;
+    box-sizing: border-box;
+}
+
+.texto{
+    position: absolute;
+width: 133px;
+height: 40px;
+right: 23px;
+top: 39px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #7FAB32;
+}
+
