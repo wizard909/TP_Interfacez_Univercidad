@@ -1,0 +1,23 @@
+.portada{
+    position: absolute;
+    width: 1440px;
+    height: 151px;
+    left: 0px;
+    top: -1px;
+}
+
+.olvideContracena{
+    position: absolute;
+    width: 133px;
+    height: 40px;
+    right: 440px;
+    top: 265px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #7FAB32;
+}

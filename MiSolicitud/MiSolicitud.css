@@ -1,0 +1,424 @@
+.FramePrincipal {
+position: relative;
+width: 1440px;
+height: 689px;
+background: #FFFFFF;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.PortadaUNAHUR {
+position: absolute;
+width: 1440px;
+height: 151px;
+left: -1px;
+top: 56px;
+background: url(ScreenShot_20200603105759.png);
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.FrameInferior {
+position: absolute;
+width: 1440px;
+height: 61px;
+left: 0px;
+top: 628px;
+
+background: #E6E8E7;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.FrameSuperior {
+    /* Auto Layout */
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    position: absolute;
+    width: 617px;
+    height: 48px;
+    left: 788px;
+    top: 0px;
+}
+.IconBandeja{
+    position: static;
+    width: 42px;
+    height: 37px;
+    left: 0px;
+    top: 5.5px;
+
+    background: url(ScreenShot_20200603164111.png);
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 20px 0px;
+}
+.IconNotificaciones{
+position: static;
+width: 48px;
+height: 48px;
+left: 62px;
+top: 0px;
+background: url(ScreenShot_20200603164130.png);
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: center;
+margin: 20px 0px;
+}
+.IconChat {
+position: static;
+width: 50px;
+height: 43px;
+left: 130px;
+top: 2.5px;
+background: url(ScreenShot_20200603164134.png);
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+align-self: center;
+margin: 20px 0px;
+}
+.Idioma {
+    position: static;
+    width: 313px;
+    height: 33px;
+    left: 200px;
+    top: 7.5px;
+    background: url(ScreenShot_20200603164145.png);
+    /* Inside Auto Layout */
+    flex: none;
+    order: 3;
+    align-self: center;
+    margin: 20px 0px;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.FrameMenu {
+position: static;
+width: 84px;
+height: 26px;
+left: 568px;
+top: 11px;
+/* Inside Auto Layout */
+flex: none;
+order: 4;
+align-self: center;
+margin: 20px 0px;
+}
+.MenuText {
+position: absolute;
+width: 51px;
+height: 23px;
+left: 533px;
+top: 14px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+color: #6D6D6D;
+}
+.IconDespliegeMenu {
+position: absolute;
+width: 25px;
+height: 25px;
+left: 592px;
+top: 11px;
+background: url(ScreenShot_20200603164145.png);
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.LineaMenu {
+position: absolute;
+width: 1439px;
+height: 0px;
+left: 1px;
+top: 261px;
+border: 5px solid #2CC6A1;
+transform: rotate(0.08deg);
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.Menu {
+
+    position: absolute;
+    width: 462px;
+    height: 30px;
+    left: 56px;
+    top: 5px;
+}
+.MisSolicitudes {
+position: absolute;
+width: 185px;
+height: 30px;
+left: 143px;
+top: 217px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 30px;
+color: #000000;
+}
+.IconMenus {
+position: absolute;
+width: 32px;
+height: 29px;
+left: 56px;
+top: 218px;
+background: url(ScreenShot_20200603172722.png);
+}
+.MiSolicitud{
+position: absolute;
+width: 134px;
+height: 30px;
+left: 384px;
+top: 217px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 30px;
+color: #000000;
+}
+.Flecha2 {
+position: absolute;
+width: 36px;
+height: 0px;
+left: 332px;
+top: 232px;
+border: 1px solid #000000;
+box-sizing: border-box;
+}
+.Flecha3 {
+position: absolute;
+width: 36px;
+height: 0px;
+left: 98.5px;
+top: 232px;
+border: 1px solid #000000;
+box-sizing: border-box;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.FrameSalir {
+position: absolute;
+width: 114px;
+height: 43px;
+left: 1301px;
+top: 211px;
+}
+.IconSalir {
+    position: absolute;
+    width: 42px;
+    height: 43px;
+    left: 0px;
+    top: 0px;
+    background: url(61208.png);
+}
+.SalirText {
+    position: absolute;
+    width: 48px;
+    height: 28px;
+    left: 66px;
+    top: 7px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.FrameSolicitudes {
+/* Auto Layout */
+display: flex;
+flex-direction: column;
+padding: 15px 12px;
+position: absolute;
+width: 680px;
+height: 283px;
+left: 56px;
+top: 288px;
+border: 3px solid #E6E8E7;
+box-sizing: border-box;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.FrameApartados {
+/* Auto Layout */
+display: flex;
+flex-direction: column;
+padding: 0px;
+
+position: absolute;
+width: 656px;
+height: 222px;
+left: 12px;
+top: 15px;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.FrameEstado {
+position: static;
+width: 656px;
+height: 47px;
+left: 0px;
+top: 0px;
+border: 1px solid #E6E8E7;
+box-sizing: border-box;
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+align-self: center;
+margin: 0px 0px;
+}
+
+.EstadoText{
+position: absolute;
+width: 60px;
+height: 21px;
+left: 29px;
+top: 13px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+color: #000000;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.FrameFecha{
+
+position: static;
+width: 656px;
+height: 47px;
+left: 0px;
+top: 47px;
+
+border: 1px solid #E6E8E7;
+box-sizing: border-box;
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: center;
+margin: 0px 0px;
+}
+
+.FechaText{
+position: absolute;
+width: 53px;
+height: 21px;
+left: 29px;
+top: 60px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+color: #000000;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.FrameDescripcion{
+
+position: static;
+width: 656px;
+height: 128px;
+left: 0px;
+top: 94px;
+border: 1px solid #ECEDED;
+box-sizing: border-box;
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+align-self: center;
+margin: 0px 0px;
+}
+
+.DescripcionText{
+position: absolute;
+width: 99px;
+height: 21px;
+left: 29px;
+top: 110px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+color: #000000;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.FrameGuardar {
+position: absolute;
+width: 104px;
+height: 31px;
+left: 135px;
+top: 243px;
+}
+.IconGuardar{
+position: absolute;
+width: 35px;
+height: 31px;
+left: 0px;
+top: 0px;
+background: url(save-icon-260nw-157892711.png);
+}
+.GuardarText{
+position: absolute;
+width: 64px;
+height: 21px;
+left: 40px;
+top: 5px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+color: #000000;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.FrameCancelar{
+    position: absolute;
+    width: 110px;
+    height: 29px;
+    left: 427px;
+    top: 243px;
+}
+.IconCancelar{
+position: absolute;
+width: 30px;
+height: 29px;
+left: 0px;
+top: 0px;
+background: url(ScreenShot_20200603195727.png);
+}
+.CancelarText{
+position: absolute;
+width: 71px;
+height: 21px;
+left: 39px;
+top: 5px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+color: #000000;
+}
