@@ -274,3 +274,74 @@ order: 1;
 align-self: center;
 margin: 2px 0px;
 }
+
+
+
+
+
+
+
+
+
+
+/* Group 1 */
+
+position: absolute;
+width: 269px;
+height: 30px;
+left: 56px;
+top: 217px;
+
+
+
+/* Mis solicitudes */
+
+position: absolute;
+width: 185px;
+height: 30px;
+left: 140px;
+top: 217px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 30px;
+
+color: #000000;
+
+
+
+.ScreenShot_202006031727221 {
+
+position: absolute;
+width: 32px;
+height: 29px;
+left: 56px;
+top: 218px;
+
+background: url(ScreenShot_20200603172722.png);
+
+
+/* Arrow 2 */
+
+position: absolute;
+width: 36px;
+height: 0px;
+left: 96px;
+top: 232px;
+
+border: 1px solid #000000;
+box-sizing: border-box;
+}
+
+.IconCarpeta {
+
+position: absolute;
+width: 32px;
+height: 29px;
+left: 56px;
+top: 218px;
+
+background: url(ScreenShot_20200603172722.png);
+}
