@@ -168,36 +168,37 @@ margin: 13px 0px;
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .frameNuevaSolicitud {
 
-position: absolute;
-width: 156px;
-height: 25px;
-left: 237px;
-top: 286px;
-}
-.iconNuevaSolicitud {
-position: absolute;
-width: 30px;
-height: 25px;
-left: 0px;
-top: 0px;
-
-background: url(pngtree-basic-user-interface-icon-set-glyph-include-switch-remove-trash-upload-png-image_2037313.jpg);
-}
-.nuevaSolicitudText {
-position: absolute;
-width: 124px;
-height: 21px;
-left: 32px;
-top: 2px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 21px;
-/* identical to box height */
-color: #000000;
-}
+    position: absolute;
+    width: 156px;
+    height: 25px;
+    left: 605px;
+    top: 195px;
+    
+    }
+    .iconNuevaSolicitud {
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    left: 0px;
+    top: 0px;
+    
+    background: url(pngtree-basic-user-interface-icon-set-glyph-include-switch-remove-trash-upload-png-image_2037313.jpg);
+    }
+    .nuevaSolicitudText {
+    position: absolute;
+    width: 124px;
+    height: 21px;
+    left: 32px;
+    top: 2px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #000000;
+    }
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .lineaVerde {
     position: absolute;
