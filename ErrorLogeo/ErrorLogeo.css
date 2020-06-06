@@ -17,13 +17,11 @@ background: #E6E8E7;
 }
 
 .portadaUNAHUR {
-position: absolute;
-height: 112px;
-left: 0px;
-right: 0px;
-top: 0px;
-
-background: url(ScreenShot_20200603105759.png);
+    position: absolute;
+    height: 118.7px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
 }
 
 .frameLogeo {
