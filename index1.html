@@ -1,10 +1,19 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/style1.css">
-
+        <script src="javaScript/jsLogeo.js"></script>
     </head>
     <body>
-        <img src="images/pagina1/image1.pgn" alt="">
-        /* no hay imagen es solo un ejemplo*/
+        <form action="">
+            <label for="user">Usuario</label>
+            <input type="text" id="usuario" maxlength="8" pattern="[0-9]+" title="solo se permiten numeros" required/>
+            <br>
+            <label for="pwd">Contraseña</label>
+            <input type="password" id="password" maxlength="6" pattern="(?=.*\d)(?=.*[a-z]).{6}" title="debe tener al menos una letra o numero" required/>
+
+            <input type="submit" onclick="login();">
+            <a href="">dale click perro</a>
+            
+        </form>
     </body>
 </html>
