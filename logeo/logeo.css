@@ -1,3 +1,8 @@
+.styleBorder{
+    border:  oldlace;
+    outline: none;
+}
+
 .framePrincipalLogeo {
 
     position: relative;
@@ -93,6 +98,9 @@ box-sizing: border-box;
     align-items: center;
 
     color: #BBBBBB;
+    /*Style Input*/
+    border:  oldlace;
+    outline: none;
 }
 
 .frameUsuario {
@@ -123,6 +131,9 @@ display: flex;
 align-items: center;
 
 color: #BBBBBB;
+/*style Input*/
+border:  oldlace;
+outline: none;
 }
 
 .olvidasteTuContrasenaText {

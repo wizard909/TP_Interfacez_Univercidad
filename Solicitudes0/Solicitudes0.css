@@ -327,3 +327,26 @@ left: 105px;
 top: 321px;
 
 }
+
+.miSolicitudText {
+
+position: absolute;
+width: 172.65px;
+height: 28.46px;
+left: 48px;
+top: 218px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25.4534px;
+line-height: 30px;
+text-decoration-line: underline;
+
+color: #000000;
+/*style Input*/
+background-color: white;
+border: none;
+outline: none;
+cursor: pointer;
+}

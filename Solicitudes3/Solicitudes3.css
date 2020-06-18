@@ -348,7 +348,7 @@ top: 271px;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 24px;
+font-size: small;
 line-height: 28px;
 
 color: #000000;
@@ -364,22 +364,22 @@ top: 271px;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 24px;
+font-size: small;
 line-height: 28px;
 
 color: #000000;
 }
 .descripcionTextEdit {
 position: absolute;
-width: 127px;
+width: 425px;
 height: 28px;
-left: 375px;
+left: 225px;
 top: 272px;
 
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 24px;
+font-size: normal;
 line-height: 28px;
 
 color: #000000;
@@ -388,8 +388,8 @@ color: #000000;
 position: absolute;
 width: 31px;
 height: 25px;
-left: 68px;
-top: 273px;
+left: 65px;
+top: 270px;
 
 border: 2px solid #000000;
 box-sizing: border-box;
@@ -446,7 +446,7 @@ box-sizing: border-box;
 .fechaTextEdit2 {
 
 position: absolute;
-width: 7px;
+width: 80px;
 height: 28px;
 left: 138px;
 top: 308px;
@@ -454,7 +454,7 @@ top: 308px;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 24px;
+font-size: small;
 line-height: 28px;
 
 color: #000000;
@@ -464,7 +464,7 @@ color: #000000;
 .estadoTextEdit2 {
 
 position: absolute;
-width: 7px;
+width: 80px;
 height: 28px;
 left: 668px;
 top: 308px;
@@ -472,7 +472,7 @@ top: 308px;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 24px;
+font-size: small;
 line-height: 28px;
 
 color: #000000;
@@ -482,15 +482,15 @@ color: #000000;
 .descripcionTextEdit2 {
 
 position: absolute;
-width: 7px;
+width: 425px;
 height: 28px;
-left: 375px;
+left: 225px;
 top: 309px;
 
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 24px;
+font-size: medium;
 line-height: 28px;
 
 color: #000000;
@@ -503,7 +503,7 @@ position: absolute;
 width: 31px;
 height: 25px;
 left: 68px;
-top: 310px;
+top: 307px;
 
 border: 2px solid #000000;
 box-sizing: border-box;
@@ -560,7 +560,7 @@ box-sizing: border-box;
 .fechaTextEdit3 {
 
 position: absolute;
-width: 7px;
+width: 80px;
 height: 28px;
 left: 138px;
 top: 345px;
@@ -568,7 +568,7 @@ top: 345px;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 24px;
+font-size: small;
 line-height: 28px;
 
 color: #000000;
@@ -586,7 +586,7 @@ top: 345px;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 24px;
+font-size: small;
 line-height: 28px;
 
 color: #000000;
@@ -596,15 +596,15 @@ color: #000000;
 .descripcionTextEdit3 {
 
 position: absolute;
-width: 7px;
+width: 425px;
 height: 28px;
-left: 375px;
+left: 225px;
 top: 346px;
 
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
-font-size: 24px;
+font-size: medium;
 line-height: 28px;
 
 color: #000000;
@@ -616,9 +616,32 @@ color: #000000;
 position: absolute;
 width: 31px;
 height: 25px;
-left: 68px;
-top: 347px;
+left: 65px;
+top: 344px;
 
 border: 2px solid #000000;
 box-sizing: border-box;
+}
+
+.miSolicitudText {
+
+position: absolute;
+width: 172.65px;
+height: 28.46px;
+left: 48px;
+top: 218px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25.4534px;
+line-height: 30px;
+text-decoration-line: underline;
+
+color: #000000;
+/*style Input*/
+background-color: white;
+border: none;
+outline: none;
+cursor: pointer;
 }
