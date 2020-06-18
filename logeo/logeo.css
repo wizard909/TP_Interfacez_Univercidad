@@ -1,0 +1,164 @@
+.framePrincipalLogeo {
+
+    position: relative;
+    width: 1288px;
+    height: 600px;
+    
+    background: #FFFFFF;
+}
+
+.portadaUNAHUR {
+
+    position: absolute;
+    height: 132px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.frameLogeo {
+position: absolute;
+width: 425px;
+height: 205px;
+left: calc(50% - 425px/2 + 3.5px);
+top: calc(50% - 205px/2 - 20.5px);
+
+border: 1px solid #E6E8E7;
+box-sizing: border-box;
+}
+
+.frameCompletarIngreso {
+position: absolute;
+width: 260px;
+height: 166px;
+left: calc(50% - 260px/2 - 66.5px);
+top: calc(50% - 166px/2 - 2.5px);
+}
+
+.frameAcceder {
+position: absolute;
+height: 55px;
+left: 0px;
+right: 0px;
+bottom: 1px;
+
+background: #5FA92C;
+border: 1px solid #E6E8E7;
+box-sizing: border-box;
+border-radius: 10px;
+}
+
+.accederText {
+position: absolute;
+left: 34.23%;
+right: 34.23%;
+top: 23.66%;
+bottom: 33.01%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 26px;
+
+color: #000000;
+}
+
+.frameContrasena {
+position: absolute;
+left: 0px;
+right: 0px;
+top: 33.85%;
+bottom: 39.04%;
+
+border: 1px solid #E6E8E7;
+box-sizing: border-box;
+}
+
+.contrasenaText {
+
+    position: absolute;
+    left: 6.57%;
+    right: 58.04%;
+    top: 25%;
+    bottom: 35.84%; 
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+
+    color: #BBBBBB;
+}
+
+.frameUsuario {
+
+position: absolute;
+height: 45px;
+left: 0px;
+right: 0px;
+top: 0px;
+
+border: 1px solid #E6E8E7;
+box-sizing: border-box;
+}
+
+.usuarioText {
+position: absolute;
+left: 6.29%;
+right: 69.87%;
+top: 33.33%;
+bottom: 31.67%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+align-items: center;
+
+color: #BBBBBB;
+}
+
+.olvidasteTuContrasenaText {
+
+    position: absolute;
+    width: 100px;
+    height: 42px;
+    right: 23px;
+    top: 30px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #7FAB32;
+}
+
+.iconUNAHUR {
+position: absolute;
+width: 111px;
+height: 82px;
+left: calc(50% - 111px/2 + 0.5px);
+top: calc(50% - 82px/2 + 123px);
+
+background: url(descarga.png);
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.bannerInferior {
+position: absolute;
+height: 49px;
+left: 0px;
+right: 0px;
+bottom: 0px;
+
+background: #E6E8E7;
+}

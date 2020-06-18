@@ -1,0 +1,129 @@
+.bienvenidos{
+
+position: relative;
+width: 1339px;
+height: 798.73px;
+
+background: #FFFFFF;
+}
+
+.imgBienvenidos {
+
+position: absolute;
+width: 1166.79px;
+height: 449.64px;
+left: 26.56px;
+top: 238.1px;
+
+background: url(banner-bienvenidos.jpg);
+}
+
+.portadaUNAHUR {
+
+position: absolute;
+width: 1349px;
+height: 132.81px;
+left: 0px;
+top: 0px;
+
+background: url(ScreenShot_20200603105759.png);
+}
+
+.inicioText {
+
+position: absolute;
+width: 62.61px;
+height: 28.46px;
+left: 62.61px;
+top: 149.88px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25.4534px;
+line-height: 30px;
+text-decoration-line: underline;
+
+color: #000000;
+}
+
+
+.misSolicitudesText {
+
+position: absolute;
+width: 172.65px;
+height: 28.46px;
+left: 215.33px;
+top: 149.88px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25.4534px;
+line-height: 30px;
+text-decoration-line: underline;
+
+color: #000000;
+}
+
+
+.usuariosText {
+
+position: absolute;
+width: 103.4px;
+height: 28.46px;
+left: 466.72px;
+top: 149.88px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25.4534px;
+line-height: 30px;
+text-decoration-line: underline;
+
+color: #000000;
+}
+
+
+.iconSalir {
+
+position: absolute;
+width: 34.23px;
+height: 36.24px;
+left: 1237.94px;
+top: 147.98px;
+
+background: url(61208.png);
+}
+
+.salirText {
+
+position: absolute;
+width: 48.32px;
+height: 28.19px;
+left: 1293.31px;
+top: 152.01px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24.1609px;
+line-height: 28px;
+/* identical to box height */
+text-decoration-line: underline;
+
+color: #000000;
+}
+
+
+.lineaVerde {
+
+position: absolute;
+width: 1339px;
+height: 0px;
+left: 0px;
+top: 195px;
+
+border: 5.03351px solid #2CC6A1;
+}

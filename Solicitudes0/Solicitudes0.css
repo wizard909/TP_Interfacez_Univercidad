@@ -117,24 +117,15 @@ top: 195px;
 border: 5.03351px solid #2CC6A1;
 }
 
-.miSolicitudText {
+.Group1 {
 
 position: absolute;
-width: 172.65px;
-height: 28.46px;
-left: 48px;
-top: 218px;
+width: 707px;
+height: 117px;
+left: 49px;
+top: 229px;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 25.4534px;
-line-height: 30px;
-text-decoration-line: underline;
-
-color: #000000;
 }
-
 
 .cuadroSeleccionar {
 
@@ -142,7 +133,7 @@ position: absolute;
 width: 70px;
 height: 39px;
 left: 49px;
-top: 278px;
+top: 229px;
 
 background: #C4C4C4;
 border: 2px solid #000000;
@@ -155,7 +146,7 @@ position: absolute;
 width: 101px;
 height: 39px;
 left: 655px;
-top: 278px;
+top: 229px;
 
 background: #C4C4C4;
 border: 2px solid #000000;
@@ -168,7 +159,7 @@ position: absolute;
 width: 106px;
 height: 39px;
 left: 117px;
-top: 278px;
+top: 229px;
 
 background: #C4C4C4;
 border: 2px solid #000000;
@@ -181,7 +172,7 @@ position: absolute;
 width: 436px;
 height: 39px;
 left: 221px;
-top: 278px;
+top: 229px;
 
 background: #C4C4C4;
 border: 2px solid #000000;
@@ -194,7 +185,7 @@ position: absolute;
 width: 65px;
 height: 28px;
 left: 138px;
-top: 283px;
+top: 234px;
 
 font-family: Roboto;
 font-style: normal;
@@ -203,8 +194,8 @@ font-size: 24px;
 line-height: 28px;
 
 color: #000000;
-
 }
+
 
 .estadoText {
 
@@ -212,7 +203,7 @@ position: absolute;
 width: 75px;
 height: 28px;
 left: 668px;
-top: 283px;
+top: 234px;
 
 font-family: Roboto;
 font-style: normal;
@@ -230,7 +221,7 @@ position: absolute;
 width: 127px;
 height: 28px;
 left: 375px;
-top: 284px;
+top: 235px;
 
 font-family: Roboto;
 font-style: normal;
@@ -242,61 +233,25 @@ color: #000000;
 }
 
 
-.cuadroSeleccionar1 {
+.cuadroNoHaySolicitudes {
 
 position: absolute;
-width: 70px;
+width: 707px;
 height: 39px;
 left: 49px;
-top: 315px;
+top: 266px;
 
 border: 2px solid #000000;
 box-sizing: border-box;
 }
 
-.cuadroEstado1 {
+.noHaySolicitudesText {
 
 position: absolute;
-width: 101px;
-height: 39px;
-left: 655px;
-top: 315px;
-
-border: 2px solid #000000;
-box-sizing: border-box;
-}
-
-.cuadroFecha1 {
-
-position: absolute;
-width: 106px;
-height: 39px;
-left: 117px;
-top: 315px;
-
-border: 2px solid #000000;
-box-sizing: border-box;
-}
-
-.cuadroDescripcion1 {
-
-position: absolute;
-width: 436px;
-height: 39px;
-left: 221px;
-top: 315px;
-
-border: 2px solid #000000;
-box-sizing: border-box;
-}
-
-.fechaTextEdit {
-
-position: absolute;
-width: 7px;
+width: 197px;
 height: 28px;
-left: 138px;
-top: 320px;
+left: 304px;
+top: 273px;
 
 font-family: Roboto;
 font-style: normal;
@@ -307,31 +262,12 @@ line-height: 28px;
 color: #000000;
 }
 
-
-.estadoTextEdit {
-
-position: absolute;
-width: 7px;
-height: 28px;
-left: 668px;
-top: 320px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-
-color: #000000;
-}
-
-
-.descripcionTextEdit {
+.crearSolicitudText {
 
 position: absolute;
-width: 7px;
+width: 157px;
 height: 28px;
-left: 375px;
+left: 137px;
 top: 321px;
 
 font-family: Roboto;
@@ -339,6 +275,55 @@ font-style: normal;
 font-weight: normal;
 font-size: 24px;
 line-height: 28px;
+text-decoration-line: underline;
 
 color: #000000;
+}
+
+
+.modificarText {
+
+position: absolute;
+width: 102px;
+height: 28px;
+left: 394px;
+top: 320px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-decoration-line: underline;
+
+color: #000000;
+}
+
+
+.eliminarText {
+
+position: absolute;
+width: 87px;
+height: 28px;
+left: 596px;
+top: 320px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-decoration-line: underline;
+
+color: #000000;
+}
+
+.iconMas{
+
+position: absolute;
+width: 30px;
+height: 26px;
+left: 105px;
+top: 321px;
+
 }
