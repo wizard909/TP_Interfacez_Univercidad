@@ -1,0 +1,26 @@
+{
+    
+    "Usuarios": [
+       {
+            "FechaIngreso":  "2019-03-25",
+            "Avatar":  "https://avatars.dicebear.com/v2/male/798fd97c964aefa1832da44ee31f328a.svg",
+            "Nombre":  "Pedrito0",
+            "Contrasenia":  "987hgf0",
+            "Activo":  "false"
+       },
+       {
+            "FechaIngreso":  "2020-01-03",
+            "Avatar":  "https://gravatar.com/avatar/798fd97c964aefa1832da44ee31f328a?s=400&d=robohash&r=x",
+            "Nombre":  "crisRob",
+            "Contrasenia":  "rob468f",
+            "Activo":  "true" 
+       },
+       {
+            "FechaIngreso":  "2020-04-12",
+            "Avatar":  "https://robohash.org/798fd97c964aefa1832da44ee31f328a?set=set4&bgset=&size=400x400",
+            "Nombre":  "Abril55",
+            "Contrasenia":  "sixGuns234k",
+            "Activo":  "true" 
+       }
+   ]
+}
