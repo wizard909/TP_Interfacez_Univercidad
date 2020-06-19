@@ -34,11 +34,11 @@ function login(){
     const password = document.getElementById("password").value;
 
     if(usuario == `${datos.Usuarios[0].Nombre}` && password == `${datos.Usuarios[0].Contrasenia}`){
-        location.href =`${html.Redireccion[0].MisSolicitudes}`
+        location.href =`${html.Redireccion[2].Bienvenida}`
     }else if(usuario == `${datos.Usuarios[1].Nombre}` && password == `${datos.Usuarios[1].Contrasenia}`){
-        location.href =`${html.Redireccion[0].MisSolicitudes}`
+        location.href =`${html.Redireccion[2].Bienvenida}`
     }else if(usuario == `${datos.Usuarios[2].Nombre}` && password == `${datos.Usuarios[2].Contrasenia}`){
-        location.href =`${html.Redireccion[0].MisSolicitudes}`
+        location.href =`${html.Redireccion[2].Bienvenida}`
     }else{
         location.href= `${html.Redireccion[0].ErrorLogeo}`;
     }
