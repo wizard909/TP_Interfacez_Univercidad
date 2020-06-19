@@ -8,21 +8,42 @@
         <div class="bienvenidos"></div>
 
         <img class="portadaUNAHUR" src="images/portadaUNAHUR.png"></div>
-        <a href=""><div class="inicioText">Inicio</div></a>
-        <a href=""><div class="misSolicitudesText">Mis Solicitudes</div></a>
-        <a href=""><div class="usuariosText">Usuarios</div></a>
+        <input type="button" class="inicioText" onclick="inicio();" value="Inicio">
+        <input type="button" class="misSolicitudesText" onclick="misSolicitudes();" value="Mis Solicitudes">
+        <input type="button" class="usuariosText" onclick="usuarios();" value="Usuarios">
 
         <div class="lineaVerde"></div>
         
-        <a href=""><div class="salirText">Salir</div></a>
+        <input type="button" class="salirText" onclick="salir();" value="Salir">
         <img class="iconSalir" src="images/iconSalir.png" alt="">
         
-        <input type="button" class="miSolicitudText" value="Mi Solicitud" onclick="desplegarMiSolicitud();">
-        
-        
-        <p id="abrirMiSolitud"></p>
+        <div class="miSolicitudText" >Mi Solicitud</div>
+
+        <div class="cuadroDescripcion1"></div>
+        <div class="cuadroEstado1"></div>
+        <div class="cuadroFecha1"></div>
+        <div class="cuadroSeleccionar1"></div>
+        <textarea class="descripcionTextEdit" name="" id="" cols="30" rows="10" maxlength="100" ></textarea>
+        <div class="estadoTextEdit">
+            <select name="Estados" id="">
+                <option value="">Abierto</option>
+                <option value="">En progreso</option>
+                <option value="">Cerrado</option>
+            </select> 
+        </div>
+        <input type="date" class="fechaTextEdit" name="fecha" min="1900-01-01" max="3000-12-31" value=""></input>
     
-        
+        <div class="cuadroDescripcion"></div>
+        <div class="cuadroEstado"></div>
+        <div class="cuadroFecha"></div>
+        <div class="cuadroSeleccionar"></div>
+        <div class="descripcionText">Descripcion</div>
+        <div class="estadoText">Estado</div>
+        <div class="fechaText">Fecha</div>
+
+        <input type="button" class="guardarText" onclick="guardar();" value="Guardar">
+        <input type="button" class="cancelarText" onclick="cancelar();" value="Cancelar">
+         
         <div class="bannerInferior"></div>
 
     </body>

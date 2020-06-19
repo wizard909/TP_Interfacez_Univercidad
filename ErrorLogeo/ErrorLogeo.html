@@ -1,6 +1,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="ErrorLogeo.css">
+        <script src="ErrorLogeo.js"></script>
     </head>
     <body>
 
@@ -11,18 +12,18 @@
         <div class="frameLogeo">
 
             <div class="frameDatosErroneos">
-                <div class="datosErroneosText">Datos erróneos. Por favor, inténtelo otra vez.</div>
+                <div class="datosErroneosText">Datos erróneos o no existe. Por favor, inténtelo otra vez.</div>
             </div>
 
             <div class="frameCompletarIngreso">
                 <div class="frameUsuario">
-                    <div class="usuarioText">Usuario</div>
+                    <input type="text" onclick="vaciarUsuario();" class="usuarioText" id="usuario" maxlength="8" pattern="[0-9]+" title="solo se permiten numeros"  value="Usuario" required/>
                 </div>
                 <div class="frameContrasena">
-                    <div class="contrasenaText">Contraseña</div>
+                    <input type="text" onclick="vaciarContrasena();" class="contrasenaText" id="password" maxlength="6" pattern="(?=.*\d)(?=.*[a-z]).{6}" title="debe tener al menos una letra o numero" value="contraseña" required/>
                 </div>
-                <div class="frameAcceder">
-                    <div class="accederText">Acceder</div>
+                <div class="frameAcceder" >
+                    <input type="button" class="accederText" onclick="login();" value="Acceder"></input>
                 </div>
             </div>
 

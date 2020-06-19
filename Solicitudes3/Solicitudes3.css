@@ -288,6 +288,12 @@ line-height: 28px;
 text-decoration-line: underline;
 
 color: #000000;
+
+/*style input*/
+background-color: white;
+border: none;
+outline: none;
+cursor: pointer;
 }
 
 .iconMas{
@@ -502,7 +508,7 @@ color: #000000;
 position: absolute;
 width: 31px;
 height: 25px;
-left: 65px;
+left: 68px;
 top: 307px;
 
 border: 2px solid #000000;
@@ -623,26 +629,25 @@ border: 2px solid #000000;
 box-sizing: border-box;
 }
 
-.desplegarSolicitudesText {
+.miSolicitudText {
 
-    position: absolute;
-    width: 275px;
-    height: 59px;
-    left: 53px;
-    top: 234px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    
-    color: #000000;
-    
-    /* stule input */
-    background-color: white;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    ;
+position: absolute;
+width: 172.65px;
+height: 28.46px;
+left: 48px;
+top: 218px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25.4534px;
+line-height: 30px;
+text-decoration-line: underline;
+
+color: #000000;
+/*style Input*/
+background-color: white;
+border: none;
+outline: none;
+cursor: pointer;
 }

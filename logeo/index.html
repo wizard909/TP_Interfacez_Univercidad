@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Login</title>
 
+<html>
+    <head>
         <script src="logeo.js"></script>
         <link rel="stylesheet" href="logeo.css">
     </head>
@@ -23,9 +19,11 @@
                 <div class="frameContrasena">
                     <input type="text" onclick="vaciarContrasena();" class="contrasenaText" id="password" maxlength="6" pattern="(?=.*\d)(?=.*[a-z]).{6}" title="debe tener al menos una letra o numero" value="contraseña" required/>
                 </div>
-                <a class="frameAcceder" href="">
-                    <div class="accederText">Acceder</div>
-                </a>
+                <div class="frameAcceder" >
+                    <input type="button" class="accederText" onclick="login();" value="Acceder"></input>
+                </div>
+                
+                
             </div>
 
             <div class="olvidasteTuContrasenaText">Olvidaste tu contraseña?</div>

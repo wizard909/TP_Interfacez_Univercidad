@@ -506,22 +506,3 @@ top: 310px;
 border: 2px solid #000000;
 box-sizing: border-box;
 }
-
-.desplegarSolicitudesText {
-
-position: absolute;
-width: 275px;
-height: 59px;
-left: 53px;
-top: 234px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-
-color: #000000;
-    
-    
-}

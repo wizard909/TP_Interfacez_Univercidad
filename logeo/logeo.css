@@ -68,6 +68,11 @@ font-size: 22px;
 line-height: 26px;
 
 color: #000000;
+/*style input*/
+background-color:#5FA92C;
+border: none;
+outline: none;
+cursor: pointer;
 }
 
 .frameContrasena {

@@ -70,6 +70,11 @@ font-size: 22px;
 line-height: 26px;
 
 color: #000000;
+/*style input*/
+background-color:#5FA92C;
+border: none;
+outline: none;
+cursor: pointer;
 }
 
 .frameContrasena {
@@ -100,6 +105,9 @@ display: flex;
 align-items: center;
 
 color: #BBBBBB;
+/*style Input*/
+border:  oldlace;
+outline: none;
 }
 
 .frameUsuario {
@@ -129,6 +137,9 @@ display: flex;
 align-items: center;
 
 color: #BBBBBB;
+/*style Input*/
+border:  oldlace;
+outline: none;
 }
 
 .olvidasteTuContrasenaText {
@@ -162,8 +173,8 @@ box-sizing: border-box;
 
 .datosErroneosText {
 position: absolute;
-left: 4.99%;
-right: -8.8%;
+left: 2.99%;
+right: 1.2%;
 top: 32.2%;
 bottom: 32.2%;
 
