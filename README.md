@@ -1,5 +1,9 @@
 # TP_Interfacez_Univercidad
 
-enlace al inicio de logeo de la univercidad: https://serene-wilson-87fcee.netlify.app
+Enlace al inicio de logeo de la univercidad: https://sharp-haibt-d0aca3.netlify.app
 
-enlace a figma: https://www.figma.com/file/vxy1ljKzXzOiRT02Pp58BR/TP_Wed_Universidad
+Enlace a figma: https://www.figma.com/file/vxy1ljKzXzOiRT02Pp58BR/TP_Wed_Universidad
+
+Usuario= Pedrito0
+
+Contraseña= 987hgf
