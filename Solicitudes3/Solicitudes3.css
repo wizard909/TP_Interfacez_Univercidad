@@ -274,24 +274,20 @@ color: #000000;
 
 .eliminarText {
 
-
 position: absolute;
-width: 106px;
-height: 30px;
+width: 87px;
+height: 28px;
 left: 597px;
 top: 397px;
+
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
 line-height: 28px;
 text-decoration-line: underline;
-color: #000000;
-background-color: white;
-border: none;
-outline: none;
-cursor: pointer;
 
+color: #000000;
 
 /*style input*/
 background-color: white;
@@ -512,7 +508,7 @@ color: #000000;
 position: absolute;
 width: 31px;
 height: 25px;
-left: 65px;
+left: 68px;
 top: 307px;
 
 border: 2px solid #000000;
@@ -634,19 +630,24 @@ box-sizing: border-box;
 }
 
 .miSolicitudText {
-    position: absolute;
-    width: 313.65px;
-    height: 36.46px;
-    left: 48px;
-    top: 218px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25.4534px;
-    line-height: 30px;
-    color: #000000;
-    background-color: white;
-    border: none;
-    outline: none;
-    cursor: pointer;
+
+position: absolute;
+width: 172.65px;
+height: 28.46px;
+left: 48px;
+top: 218px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25.4534px;
+line-height: 30px;
+text-decoration-line: underline;
+
+color: #000000;
+/*style Input*/
+background-color: white;
+border: none;
+outline: none;
+cursor: pointer;
 }

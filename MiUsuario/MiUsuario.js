@@ -28,7 +28,7 @@ function desplegarUsuario(numero){
     <div class="cuadroAvatar"></div>
     <div class="cuadroContracenia"></div>
     <div class="cuadroFecha"></div>
-    
+ 
     <div class="nombreText">Nombre</div>
     <div class="activoText">Activo</div>
     <div class="avatarText">Avatar</div>
@@ -44,7 +44,7 @@ function desplegarUsuario(numero){
     <div class="cuadroContracenia1"></div>
     <div class="cuadroActivo1"></div>
 
-    <img class="avatarTextEdit" src="${datos.Usuarios[0].Avatar} ">
+    <img class="avatarTextEdit2" src="${datos.Usuarios[0].Avatar} ">
     <input type="date" name="fecha" min="1900-01-01" max="3000-12-31" value="${datos.Usuarios[0].FechaIngreso}" class="fechaTextEdit"></input>
     <textarea name="" id="" cols="30" rows="2" maxlength="100" class="nombreTextEdit" >${datos.Usuarios[0].Nombre}</textarea>
     <textarea name="" id="" cols="30" rows="2" maxlength="50" class="contraceniaTextEdit" >${datos.Usuarios[0].Contrasenia}</textarea>
@@ -77,3 +77,17 @@ function estaActivo(estado){
     }
 
 }
+
+function inicio(){
+
+}
+
+function  misSolicitudes(){
+
+}
+
+function usuarios(){
+
+}
+
+function 

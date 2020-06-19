@@ -181,14 +181,16 @@ box-sizing: border-box;
 }
 
 .cuadroFecha {
-    position: absolute;
-    width: 125px;
-    height: 39px;
-    left: 98px;
-    top: 278px;
-    background: #C4C4C4;
-    border: 2px solid #000000;
-    box-sizing: border-box;
+
+position: absolute;
+width: 106px;
+height: 39px;
+left: 117px;
+top: 278px;
+
+background: #C4C4C4;
+border: 2px solid #000000;
+box-sizing: border-box;
 }
 
 .cuadroDescripcion {
@@ -283,13 +285,15 @@ box-sizing: border-box;
 }
 
 .cuadroFecha1 {
-    position: absolute;
-    width: 125px;
-    height: 39px;
-    left: 98px;
-    top: 315px;
-    border: 2px solid #000000;
-    box-sizing: border-box;
+
+position: absolute;
+width: 106px;
+height: 39px;
+left: 117px;
+top: 315px;
+
+border: 2px solid #000000;
+box-sizing: border-box;
 }
 
 .cuadroDescripcion1 {
@@ -305,47 +309,56 @@ box-sizing: border-box;
 }
 
 .fechaTextEdit {
-    position: absolute;
-    width: 117px;
-    height: 28px;
-    left: 102px;
-    top: 320px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 28px;
-    color: #000000;
+
+position: absolute;
+width: 7px;
+height: 28px;
+left: 138px;
+top: 320px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
 }
 
 
 .estadoTextEdit {
-    position: absolute;
-    width: 7px;
-    height: 28px;
-    left: 657px;
-    top: 324px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    color: #000000;
+
+position: absolute;
+width: 7px;
+height: 28px;
+left: 668px;
+top: 320px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
 }
 
 
 .descripcionTextEdit {
-    position: absolute;
-    width: 423px;
-    height: 28px;
-    left: 228px;
-    top: 321px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    color: #000000;
+
+position: absolute;
+width: 7px;
+height: 28px;
+left: 375px;
+top: 321px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
 }
 
 .cancelarText {

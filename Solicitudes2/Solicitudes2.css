@@ -15,6 +15,7 @@ height: 132.81px;
 left: 0px;
 top: 0px;
 
+background: url(ScreenShot_20200603105759.png);
 }
 
 .inicioText {
@@ -33,11 +34,6 @@ line-height: 30px;
 text-decoration-line: underline;
 
 color: #000000;
-/*style input*/
-background-color: white;
-border: none;
-outline: none;
-cursor: pointer;
 }
 
 
@@ -57,11 +53,6 @@ line-height: 30px;
 text-decoration-line: underline;
 
 color: #000000;
-/*style input*/
-background-color: white;
-border: none;
-outline: none;
-cursor: pointer;
 }
 
 
@@ -81,11 +72,6 @@ line-height: 30px;
 text-decoration-line: underline;
 
 color: #000000;
-/*style input*/
-background-color: white;
-border: none;
-outline: none;
-cursor: pointer;
 }
 
 
@@ -97,6 +83,7 @@ height: 36.24px;
 left: 1237.94px;
 top: 147.98px;
 
+background: url(61208.png);
 }
 
 .salirText {
@@ -116,16 +103,8 @@ line-height: 28px;
 text-decoration-line: underline;
 
 color: #000000;
-/*style input*/
-background-color: white;
-border: none;
-outline: none;
-cursor: pointer;
 }
-
-
 .lineaVerde {
-
 position: absolute;
 width: 1339px;
 height: 0px;
@@ -134,85 +113,56 @@ top: 195px;
 
 border: 5.03351px solid #2CC6A1;
 }
-
-.miSolicitudText {
-
-position: absolute;
-width: 172.65px;
-height: 28.46px;
-left: 48px;
-top: 218px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 25.4534px;
-line-height: 30px;
-text-decoration-line: underline;
-
-color: #000000;
-}
-
-
 .cuadroSeleccionar {
-
 position: absolute;
 width: 70px;
 height: 39px;
 left: 49px;
-top: 278px;
+top: 229px;
 
 background: #C4C4C4;
 border: 2px solid #000000;
 box-sizing: border-box;
 }
-
 .cuadroEstado {
-
 position: absolute;
 width: 101px;
 height: 39px;
 left: 655px;
-top: 278px;
+top: 229px;
 
 background: #C4C4C4;
 border: 2px solid #000000;
 box-sizing: border-box;
 }
-
 .cuadroFecha {
-
 position: absolute;
 width: 106px;
 height: 39px;
 left: 117px;
-top: 278px;
+top: 229px;
 
 background: #C4C4C4;
 border: 2px solid #000000;
 box-sizing: border-box;
 }
-
 .cuadroDescripcion {
-
 position: absolute;
 width: 436px;
 height: 39px;
 left: 221px;
-top: 278px;
+top: 229px;
 
 background: #C4C4C4;
 border: 2px solid #000000;
 box-sizing: border-box;
 }
-
 .fechaText {
-
 position: absolute;
 width: 65px;
 height: 28px;
 left: 138px;
-top: 283px;
+top: 234px;
 
 font-family: Roboto;
 font-style: normal;
@@ -221,16 +171,193 @@ font-size: 24px;
 line-height: 28px;
 
 color: #000000;
+}
+.estadoText {
+position: absolute;
+width: 75px;
+height: 28px;
+left: 668px;
+top: 234px;
 
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+.descripcionText {
+position: absolute;
+width: 127px;
+height: 28px;
+left: 375px;
+top: 235px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
 }
 
-.estadoText {
+.cuadroNoHaySolicitudes {
+
+position: absolute;
+width: 707px;
+height: 39px;
+left: 49px;
+top: 266px;
+
+border: 2px solid #000000;
+box-sizing: border-box;
+}
+
+.noHaySolicitudesText {
+
+position: absolute;
+width: 197px;
+height: 28px;
+left: 304px;
+top: 273px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+
+.crearSolicitudText {
+
+position: absolute;
+width: 157px;
+height: 28px;
+left: 137px;
+top: 356px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-decoration-line: underline;
+
+color: #000000;
+}
+
+
+.modificarText {
+
+position: absolute;
+width: 102px;
+height: 28px;
+left: 394px;
+top: 355px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-decoration-line: underline;
+
+color: #000000;
+}
+
+
+.eliminarText {
+
+position: absolute;
+width: 87px;
+height: 28px;
+left: 596px;
+top: 355px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-decoration-line: underline;
+
+color: #000000;
+}
+
+.iconMas{
+position: absolute;
+width: 30px;
+height: 26px;
+left: 105px;
+top: 356px;
+}
+
+.cuadroSeleccionar1 {
+position: absolute;
+width: 70px;
+height: 39px;
+left: 49px;
+top: 266px;
+
+border: 2px solid #000000;
+box-sizing: border-box;
+}
+.cuadroEstado1 {
+position: absolute;
+width: 101px;
+height: 39px;
+left: 655px;
+top: 266px;
+
+border: 2px solid #000000;
+box-sizing: border-box;
+}
+.cuadroFecha1 {
+position: absolute;
+width: 106px;
+height: 39px;
+left: 117px;
+top: 266px;
+
+border: 2px solid #000000;
+box-sizing: border-box;
+}
+.cuadroDescripcion1 {
+position: absolute;
+width: 436px;
+height: 39px;
+left: 221px;
+top: 266px;
+
+border: 2px solid #000000;
+box-sizing: border-box;
+}
+.fechaTextEdit {
+position: absolute;
+width: 65px;
+height: 28px;
+left: 138px;
+top: 271px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+.estadoTextEdit {
 
 position: absolute;
 width: 75px;
 height: 28px;
 left: 668px;
-top: 283px;
+top: 271px;
 
 font-family: Roboto;
 font-style: normal;
@@ -240,15 +367,12 @@ line-height: 28px;
 
 color: #000000;
 }
-
-
-.descripcionText {
-
+.descripcionTextEdit {
 position: absolute;
 width: 127px;
 height: 28px;
 left: 375px;
-top: 284px;
+top: 272px;
 
 font-family: Roboto;
 font-style: normal;
@@ -258,63 +382,72 @@ line-height: 28px;
 
 color: #000000;
 }
+.circuloSelect{
+position: absolute;
+width: 31px;
+height: 25px;
+left: 68px;
+top: 273px;
 
+border: 2px solid #000000;
+box-sizing: border-box;
+}
 
-.cuadroSeleccionar1 {
+.cuadroSeleccionar2 {
 
 position: absolute;
 width: 70px;
 height: 39px;
 left: 49px;
-top: 315px;
+top: 303px;
 
 border: 2px solid #000000;
 box-sizing: border-box;
 }
 
-.cuadroEstado1 {
+.cuadroEstado2 {
 
 position: absolute;
 width: 101px;
 height: 39px;
 left: 655px;
-top: 315px;
+top: 303px;
 
 border: 2px solid #000000;
 box-sizing: border-box;
 }
 
-.cuadroFecha1 {
+.cuadroFecha2 {
 
 position: absolute;
 width: 106px;
 height: 39px;
 left: 117px;
-top: 315px;
+top: 303px;
 
 border: 2px solid #000000;
 box-sizing: border-box;
 }
 
-.cuadroDescripcion1 {
+.cuadroDescripcion2 {
 
 position: absolute;
 width: 436px;
 height: 39px;
 left: 221px;
-top: 315px;
+top: 303px;
 
 border: 2px solid #000000;
 box-sizing: border-box;
 }
 
-.fechaTextEdit {
+.fechaTextEdit2 {
 
 position: absolute;
 width: 7px;
 height: 28px;
 left: 138px;
-top: 320px;
+top: 308px;
 
 font-family: Roboto;
 font-style: normal;
@@ -323,16 +456,16 @@ font-size: 24px;
 line-height: 28px;
 
 color: #000000;
+
 }
 
-
-.estadoTextEdit {
+.estadoTextEdit2 {
 
 position: absolute;
 width: 7px;
 height: 28px;
 left: 668px;
-top: 320px;
+top: 308px;
 
 font-family: Roboto;
 font-style: normal;
@@ -344,13 +477,13 @@ color: #000000;
 }
 
 
-.descripcionTextEdit {
+.descripcionTextEdit2 {
 
 position: absolute;
 width: 7px;
 height: 28px;
 left: 375px;
-top: 321px;
+top: 309px;
 
 font-family: Roboto;
 font-style: normal;
@@ -361,48 +494,15 @@ line-height: 28px;
 color: #000000;
 }
 
-.cancelarText {
+
+.circuloSelect2 {
 
 position: absolute;
-width: 95px;
-height: 28px;
-left: 557px;
-top: 364px;
+width: 31px;
+height: 25px;
+left: 68px;
+top: 310px;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-text-decoration-line: underline;
-
-color: #000000;
-/*style input*/
-background-color: white;
-border: none;
-outline: none;
-cursor: pointer;
-}
-
-.guardarText {
-
-position: absolute;
-width: 86px;
-height: 28px;
-left: 186px;
-top: 364px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-text-decoration-line: underline;
-
-color: #000000;
-/*style input*/
-background-color: white;
-border: none;
-outline: none;
-cursor: pointer;
+border: 2px solid #000000;
+box-sizing: border-box;
 }
