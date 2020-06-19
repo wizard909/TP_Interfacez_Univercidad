@@ -12,8 +12,8 @@ xhttp.onreadystatechange = function(){
     }
 }
 
-function test(){
-    let res = document.getElementById("aca");
+function desplegarMiSolicitud(){
+    let res = document.getElementById("abrirMiSolitud");
     res.innerHTML=`
     <div class="cuadroDescripcion1"></div>
         <div class="cuadroEstado1"></div>
@@ -30,5 +30,8 @@ function test(){
         <div class="descripcionText">Descripcion</div>
         <div class="estadoText">Estado</div>
         <div class="fechaText">Fecha</div>
+
+        <div class="guardarText">Guardar</div>
+        <div class="cancelarText">Cancelar</div>
     `;
 }

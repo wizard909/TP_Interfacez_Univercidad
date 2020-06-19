@@ -12,8 +12,8 @@ xhttp.onreadystatechange = function(){
     }
 }
 
-function darSolicitud(){
-    let res = document.getElementById("solicitudes");
+function desplegarSolicitudes(){
+    let res = document.getElementById("abrirSolicitudes");
     res.innerHTML=`
     <img class="iconMas" src="images/iconMas.png" >
     <div class="crearSolicitudText">Crear solictud</div>
@@ -57,9 +57,11 @@ function darSolicitud(){
     
     <img class="iconMas" src="images/iconMas.png" >
     <a href=""><div class="crearSolicitudText">Crear solictud</div></a>
+    <a href=""><div class="eliminarText">Eliminar</div></a>
+    <a href=""><div class="modificarText">Modificar</div></a>
     `;
 
-    var usuarios = document.getElementById("miSolicitud");
+    var usuarios = document.getElementById("desplegarSolicitudes");
     usuarios.value = "";
 }
 
