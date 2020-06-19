@@ -18,26 +18,22 @@ top: 0px;
 }
 
 .inicioText {
-
-position: absolute;
-width: 62.61px;
-height: 28.46px;
-left: 62.61px;
-top: 149.88px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 25.4534px;
-line-height: 30px;
-text-decoration-line: underline;
-
-color: #000000;
-/*style input*/
-background-color: white;
-border: none;
-outline: none;
-cursor: pointer;
+    position: absolute;
+    width: 76.61px;
+    height: 28.46px;
+    left: 62.61px;
+    top: 149.88px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25.4534px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #000000;
+    background-color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
 
 
@@ -100,27 +96,22 @@ top: 147.98px;
 }
 
 .salirText {
-
-position: absolute;
-width: 48.32px;
-height: 28.19px;
-left: 1293.31px;
-top: 152.01px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24.1609px;
-line-height: 28px;
-/* identical to box height */
-text-decoration-line: underline;
-
-color: #000000;
-/*style input*/
-background-color: white;
-border: none;
-outline: none;
-cursor: pointer;
+    position: absolute;
+    width: 67.32px;
+    height: 28.19px;
+    left: 1281.31px;
+    top: 152.01px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24.1609px;
+    line-height: 28px;
+    text-decoration-line: underline;
+    color: #000000;
+    background-color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
 
 
@@ -138,8 +129,8 @@ border: 5.03351px solid #2CC6A1;
 .miSolicitudText {
 
 position: absolute;
-width: 172.65px;
-height: 28.46px;
+width: 290px;
+height: 32px;
 left: 48px;
 top: 218px;
 
@@ -148,9 +139,13 @@ font-style: normal;
 font-weight: normal;
 font-size: 25.4534px;
 line-height: 30px;
-text-decoration-line: underline;
 
 color: #000000;
+
+background-color: white;
+border: none;
+outline: none;
+cursor: pointer;
 }
 
 
@@ -308,57 +303,50 @@ border: 2px solid #000000;
 box-sizing: border-box;
 }
 
+
+
 .fechaTextEdit {
-
-position: absolute;
-width: 7px;
-height: 28px;
-left: 138px;
-top: 320px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-
-color: #000000;
+    position: absolute;
+    width: 99px;
+    height: 28px;
+    left: 121px;
+    top: 320px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 28px;
+    color: #000000;
 }
 
 
 .estadoTextEdit {
-
-position: absolute;
-width: 7px;
-height: 28px;
-left: 668px;
-top: 320px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-
-color: #000000;
+    position: absolute;
+    width: 7px;
+    height: 28px;
+    left: 657px;
+    top: 302px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
 }
 
 
 .descripcionTextEdit {
-
-position: absolute;
-width: 7px;
-height: 28px;
-left: 375px;
-top: 321px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-
-color: #000000;
+    position: absolute;
+    width: 423px;
+    height: 28px;
+    left: 228px;
+    top: 321px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: medium;
+    line-height: 28px;
+    color: #000000;
 }
 
 .cancelarText {

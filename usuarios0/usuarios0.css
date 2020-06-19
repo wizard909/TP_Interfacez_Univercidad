@@ -102,33 +102,13 @@ top: 195px;
 border: 5.03351px solid #2CC6A1;
 }
 
-.miUsuarioText {
-
-position: absolute;
-width: 134px;
-height: 28px;
-left: 49px;
-top: 216px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 25.4534px;
-line-height: 30px;
-text-decoration-line: underline;
-
-color: #000000;
-
-}
-
-
 .cuadroSeleccionar {
 
 position: absolute;
 width: 70px;
 height: 39px;
-left: 47px;
-top: 278px;
+left: 49px;
+top: 229px;
 
 background: #C4C4C4;
 border: 2px solid #000000;
@@ -140,34 +120,34 @@ box-sizing: border-box;
 position: absolute;
 width: 123px;
 height: 39px;
-left: 840px;
-top: 278px;
+left: 625px;
+top: 229px;
 
 background: #C4C4C4;
 border: 2px solid #000000;
 box-sizing: border-box;
 }
 
-.cuadroFecha {
+.cuadroAvatar {
 
 position: absolute;
 width: 182px;
 height: 39px;
-left: 115px;
-top: 278px;
+left: 117px;
+top: 229px;
 
 background: #C4C4C4;
 border: 2px solid #000000;
 box-sizing: border-box;
 }
 
-.cuadroNombre{
+.cuadroNombre {
 
 position: absolute;
-width: 212px;
+width: 330px;
 height: 39px;
-left: 416px;
-top: 278px;
+left: 297px;
+top: 229px;
 
 background: #C4C4C4;
 border: 2px solid #000000;
@@ -179,8 +159,8 @@ box-sizing: border-box;
 position: absolute;
 width: 69px;
 height: 28px;
-left: 136px;
-top: 285px;
+left: 138px;
+top: 234px;
 
 font-family: Roboto;
 font-style: normal;
@@ -197,8 +177,8 @@ color: #000000;
 position: absolute;
 width: 68px;
 height: 28px;
-left: 867px;
-top: 285px;
+left: 660px;
+top: 235px;
 
 font-family: Roboto;
 font-style: normal;
@@ -213,76 +193,10 @@ color: #000000;
 .nombreText {
 
 position: absolute;
-width: 89px;
-height: 27px;
-left: 483px;
-top: 285px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-
-color: #000000;
-
-}
-
-.cuadroSeleccionar1 {
-
-position: absolute;
-width: 70px;
-height: 99px;
-left: 47px;
-top: 315px;
-
-border: 2px solid #000000;
-box-sizing: border-box;
-}
-
-.cuadroActivo1 {
-
-position: absolute;
-width: 123px;
-height: 99px;
-left: 840px;
-top: 315px;
-
-border: 2px solid #000000;
-box-sizing: border-box;
-}
-
-.cuadroFecha1 {
-
-position: absolute;
-width: 182px;
-height: 99px;
-left: 115px;
-top: 315px;
-
-border: 2px solid #000000;
-box-sizing: border-box;
-}
-
-.cuadroNombre1 {
-
-position: absolute;
-width: 212px;
-height: 99px;
-left: 416px;
-top: 315px;
-
-border: 2px solid #000000;
-box-sizing: border-box;
-}
-
-.avatarTextEdit {
-
-position: absolute;
-width: 41px;
+width: 86px;
 height: 28px;
-left: 170px;
-top: 347px;
+left: 419px;
+top: 235px;
 
 font-family: Roboto;
 font-style: normal;
@@ -294,13 +208,13 @@ color: #000000;
 }
 
 
-.activoTextEdit {
+.noHayUsuariosText {
 
 position: absolute;
-width: 7px;
+width: 173px;
 height: 28px;
-left: 883px;
-top: 351px;
+left: 312px;
+top: 271px;
 
 font-family: Roboto;
 font-style: normal;
@@ -312,167 +226,80 @@ color: #000000;
 }
 
 
-.cuadroContracenia {
+.crearUsuarioText {
 
 position: absolute;
-width: 216px;
+width: 143px;
+height: 28px;
+left: 139px;
+top: 319px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-decoration-line: underline;
+
+color: #000000;
+}
+
+
+.modificarText {
+
+position: absolute;
+width: 102px;
+height: 28px;
+left: 393px;
+top: 319px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-decoration-line: underline;
+
+color: #000000;
+}
+
+
+.eliminarText {
+
+position: absolute;
+width: 87px;
+height: 28px;
+left: 607px;
+top: 319px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-decoration-line: underline;
+
+color: #000000;
+}
+
+
+.iconMas {
+
+position: absolute;
+width: 30px;
+height: 26px;
+left: 107px;
+top: 319px;
+
+}
+
+.cuadroNoHayUsuarios{
+
+position: absolute;
+width: 699px;
 height: 39px;
-left: 626px;
-top: 278px;
-
-background: #C4C4C4;
-border: 2px solid #000000;
-box-sizing: border-box;
-}
-
-.contraceniaText {
-
-position: absolute;
-width: 123px;
-height: 28px;
-left: 679px;
-top: 285px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-
-color: #000000;
-}
-
-
-.cuadroContracenia1 {
-
-position: absolute;
-width: 216px;
-height: 99px;
-left: 626px;
-top: 315px;
-
-border: 2px solid #000000;
-box-sizing: border-box;
-}
-
-.contraceniaTextEdit {
-
-position: absolute;
-width: 7px;
-height: 28px;
-left: 667px;
-top: 351px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-
-color: #000000;
-}
-
-
-.cuadroFecha {
-
-position: absolute;
-width: 123px;
-height: 39px;
-left: 295px;
-top: 278px;
-
-background: #C4C4C4;
-border: 2px solid #000000;
-box-sizing: border-box;
-}
-
-.fechaText {
-
-position: absolute;
-width: 65px;
-height: 28px;
-left: 324px;
-top: 285px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-
-color: #000000;
-
-}
-
-.cuadroFecha1 {
-
-position: absolute;
-width: 123px;
-height: 99px;
-left: 295px;
-top: 315px;
-
-border: 2px solid #000000;
-box-sizing: border-box;
-}
-
-.fechaTextEdit {
-
-position: absolute;
-width: 7px;
-height: 28px;
-left: 317px;
-top: 351px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-
-color: #000000;
-}
-
-
-.nombreTextEdit {
-
-position: absolute;
-width: 7px;
-height: 28px;
-left: 465px;
-top: 351px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-
-color: #000000;
-}
-
-.cuadroAvatar {
-
-
-position: absolute;
-width: 182px;
-height: 39px;
-left: 115px;
-top: 278px;
-
-background: #C4C4C4;
-border: 2px solid #000000;
-box-sizing: border-box;
-}
-
-.cuadroAvatar1 {
-
-
-position: absolute;
-width: 182px;
-height: 99px;
-left: 115px;
-top: 315px;
+left: 49px;
+top: 266px;
 
 border: 2px solid #000000;
 box-sizing: border-box;

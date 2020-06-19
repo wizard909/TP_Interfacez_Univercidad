@@ -18,7 +18,6 @@ function seleccionarSolicitud(numero){
     <div class="cuadroDescripcion1"></div>
     <div class="cuadroEstado1"></div>
     <div class="cuadroFecha1"></div>
-    <div class="cuadroSeleccionar1"></div>
     <textarea class="descripcionTextEdit" name="" id="" cols="30" rows="10" maxlength="100" >${datos.Solicitudes[numero].Descripcion}</textarea>
     <div class="estadoTextEdit">
         <p id="estados" ></p>
@@ -28,7 +27,6 @@ function seleccionarSolicitud(numero){
     <div class="cuadroDescripcion"></div>
     <div class="cuadroEstado"></div>
     <div class="cuadroFecha"></div>
-    <div class="cuadroSeleccionar"></div>
     <div class="descripcionText">Descripcion</div>
     <div class="estadoText">Estado</div>
     <div class="fechaText">Fecha</div>
