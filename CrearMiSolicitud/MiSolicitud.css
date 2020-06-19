@@ -8,15 +8,17 @@ background: #FFFFFF;
 }
 
 .portadaUNAHUR {
+
 position: absolute;
 width: 1349px;
 height: 132.81px;
 left: 0px;
 top: 0px;
 
-background: url(ScreenShot_20200603105759.png);
 }
+
 .inicioText {
+
 position: absolute;
 width: 62.61px;
 height: 28.46px;
@@ -31,8 +33,16 @@ line-height: 30px;
 text-decoration-line: underline;
 
 color: #000000;
+/*style input*/
+background-color: white;
+border: none;
+outline: none;
+cursor: pointer;
 }
+
+
 .misSolicitudesText {
+
 position: absolute;
 width: 172.65px;
 height: 28.46px;
@@ -47,8 +57,16 @@ line-height: 30px;
 text-decoration-line: underline;
 
 color: #000000;
+/*style input*/
+background-color: white;
+border: none;
+outline: none;
+cursor: pointer;
 }
+
+
 .usuariosText {
+
 position: absolute;
 width: 103.4px;
 height: 28.46px;
@@ -63,15 +81,22 @@ line-height: 30px;
 text-decoration-line: underline;
 
 color: #000000;
+/*style input*/
+background-color: white;
+border: none;
+outline: none;
+cursor: pointer;
 }
+
+
 .iconSalir {
+
 position: absolute;
 width: 34.23px;
 height: 36.24px;
 left: 1237.94px;
 top: 147.98px;
 
-background: url(61208.png);
 }
 
 .salirText {
@@ -91,8 +116,16 @@ line-height: 28px;
 text-decoration-line: underline;
 
 color: #000000;
+/*style input*/
+background-color: white;
+border: none;
+outline: none;
+cursor: pointer;
 }
+
+
 .lineaVerde {
+
 position: absolute;
 width: 1339px;
 height: 0px;
@@ -102,65 +135,82 @@ top: 195px;
 border: 5.03351px solid #2CC6A1;
 }
 
+.miSolicitudText {
+
+position: absolute;
+width: 172.65px;
+height: 28.46px;
+left: 48px;
+top: 218px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25.4534px;
+line-height: 30px;
+text-decoration-line: underline;
+
+color: #000000;
+}
+
+
 .cuadroSeleccionar {
 
 position: absolute;
 width: 70px;
 height: 39px;
 left: 49px;
-top: 229px;
+top: 278px;
 
 background: #C4C4C4;
 border: 2px solid #000000;
 box-sizing: border-box;
 }
 
-.cuadroActivo {
+.cuadroEstado {
 
 position: absolute;
-width: 123px;
+width: 101px;
 height: 39px;
-left: 625px;
-top: 229px;
+left: 655px;
+top: 278px;
 
 background: #C4C4C4;
 border: 2px solid #000000;
 box-sizing: border-box;
 }
 
-.cuadroAvatar {
+.cuadroFecha {
+    position: absolute;
+    width: 125px;
+    height: 39px;
+    left: 98px;
+    top: 278px;
+    background: #C4C4C4;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+
+.cuadroDescripcion {
 
 position: absolute;
-width: 182px;
+width: 436px;
 height: 39px;
-left: 117px;
-top: 229px;
+left: 221px;
+top: 278px;
 
 background: #C4C4C4;
 border: 2px solid #000000;
 box-sizing: border-box;
 }
 
-.cuadroNombre {
+.fechaText {
 
 position: absolute;
-width: 330px;
-height: 39px;
-left: 297px;
-top: 229px;
-
-background: #C4C4C4;
-border: 2px solid #000000;
-box-sizing: border-box;
-}
-
-.avatarText {
-
-position: absolute;
-width: 69px;
+width: 65px;
 height: 28px;
 left: 138px;
-top: 234px;
+top: 283px;
 
 font-family: Roboto;
 font-style: normal;
@@ -169,16 +219,16 @@ font-size: 24px;
 line-height: 28px;
 
 color: #000000;
+
 }
 
-
-.activoText {
+.estadoText {
 
 position: absolute;
-width: 68px;
+width: 75px;
 height: 28px;
-left: 660px;
-top: 235px;
+left: 668px;
+top: 283px;
 
 font-family: Roboto;
 font-style: normal;
@@ -190,49 +240,144 @@ color: #000000;
 }
 
 
-.nombreText {
+.descripcionText {
+
+position: absolute;
+width: 127px;
+height: 28px;
+left: 375px;
+top: 284px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+
+
+.cuadroSeleccionar1 {
+
+position: absolute;
+width: 70px;
+height: 39px;
+left: 49px;
+top: 315px;
+
+border: 2px solid #000000;
+box-sizing: border-box;
+}
+
+.cuadroEstado1 {
+
+position: absolute;
+width: 101px;
+height: 39px;
+left: 655px;
+top: 315px;
+
+border: 2px solid #000000;
+box-sizing: border-box;
+}
+
+.cuadroFecha1 {
+    position: absolute;
+    width: 125px;
+    height: 39px;
+    left: 98px;
+    top: 315px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+
+.cuadroDescripcion1 {
+
+position: absolute;
+width: 436px;
+height: 39px;
+left: 221px;
+top: 315px;
+
+border: 2px solid #000000;
+box-sizing: border-box;
+}
+
+.fechaTextEdit {
+    position: absolute;
+    width: 117px;
+    height: 28px;
+    left: 102px;
+    top: 320px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 28px;
+    color: #000000;
+}
+
+
+.estadoTextEdit {
+    position: absolute;
+    width: 7px;
+    height: 28px;
+    left: 657px;
+    top: 324px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+
+.descripcionTextEdit {
+    position: absolute;
+    width: 423px;
+    height: 28px;
+    left: 228px;
+    top: 321px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.cancelarText {
+
+position: absolute;
+width: 95px;
+height: 28px;
+left: 557px;
+top: 364px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-decoration-line: underline;
+
+color: #000000;
+/*style input*/
+background-color: white;
+border: none;
+outline: none;
+cursor: pointer;
+}
+
+.guardarText {
 
 position: absolute;
 width: 86px;
 height: 28px;
-left: 419px;
-top: 235px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-
-color: #000000;
-}
-
-
-.noHayUsuariosText {
-
-position: absolute;
-width: 173px;
-height: 28px;
-left: 312px;
-top: 271px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-
-color: #000000;
-}
-
-
-.crearUsuarioText {
-
-position: absolute;
-width: 143px;
-height: 28px;
-left: 139px;
-top: 319px;
+left: 186px;
+top: 364px;
 
 font-family: Roboto;
 font-style: normal;
@@ -242,65 +387,9 @@ line-height: 28px;
 text-decoration-line: underline;
 
 color: #000000;
-}
-
-
-.modificarText {
-
-position: absolute;
-width: 102px;
-height: 28px;
-left: 393px;
-top: 319px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-text-decoration-line: underline;
-
-color: #000000;
-}
-
-
-.eliminarText {
-
-position: absolute;
-width: 87px;
-height: 28px;
-left: 607px;
-top: 319px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-text-decoration-line: underline;
-
-color: #000000;
-}
-
-
-.iconMas {
-
-position: absolute;
-width: 30px;
-height: 26px;
-left: 107px;
-top: 319px;
-
-}
-
-.cuadroNoHayUsuarios{
-
-position: absolute;
-width: 699px;
-height: 39px;
-left: 49px;
-top: 266px;
-
-border: 2px solid #000000;
-box-sizing: border-box;
+/*style input*/
+background-color: white;
+border: none;
+outline: none;
+cursor: pointer;
 }

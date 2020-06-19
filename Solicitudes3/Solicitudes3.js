@@ -24,8 +24,8 @@ function darSolicitud(){
         <div class="cuadroDescripcion1"></div>
         <div class="cuadroEstado1"></div>
         <div class="cuadroFecha1"></div>
-        <div class="cuadroSeleccionar1"><input type="checkbox" value="1"id="check1" class="circuloSelect" onclick="valorCheck1(this)";></div>
-        
+        <div class="cuadroSeleccionar1"></div>
+        <input type="checkbox" value="1"id="check1" class="circuloSelect" onclick="valorCheck1(this)";>
         <div class="descripcionTextEdit">${datos.Solicitudes[0].Descripcion}</div>
         <div class="estadoTextEdit">${datos.Solicitudes[0].Estado}</div>
         <div class="fechaTextEdit">${datos.Solicitudes[0].FechaSolicitud}</div>
