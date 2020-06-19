@@ -122,13 +122,35 @@ top: 195px;
 border: 5.03351px solid #2CC6A1;
 }
 
+.desplegarUsuarioText {
+    position: absolute;
+    width: 242px;
+    height: 28px;
+    left: 49px;
+    top: 216px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25.4534px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    
+    /* text-decoration-line: underline; */
+    color: #000000;
+    background-color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
 .cuadroSeleccionar {
 
 position: absolute;
 width: 70px;
 height: 39px;
-left: 49px;
-top: 229px;
+left: 47px;
+top: 278px;
 
 background: #C4C4C4;
 border: 2px solid #000000;
@@ -140,8 +162,8 @@ box-sizing: border-box;
 position: absolute;
 width: 123px;
 height: 39px;
-left: 625px;
-top: 229px;
+left: 840px;
+top: 278px;
 
 background: #C4C4C4;
 border: 2px solid #000000;
@@ -153,8 +175,8 @@ box-sizing: border-box;
 position: absolute;
 width: 182px;
 height: 39px;
-left: 117px;
-top: 229px;
+left: 115px;
+top: 278px;
 
 background: #C4C4C4;
 border: 2px solid #000000;
@@ -164,10 +186,10 @@ box-sizing: border-box;
 .cuadroNombre {
 
 position: absolute;
-width: 330px;
+width: 212px;
 height: 39px;
-left: 297px;
-top: 229px;
+left: 416px;
+top: 278px;
 
 background: #C4C4C4;
 border: 2px solid #000000;
@@ -179,8 +201,8 @@ box-sizing: border-box;
 position: absolute;
 width: 69px;
 height: 28px;
-left: 138px;
-top: 234px;
+left: 136px;
+top: 285px;
 
 font-family: Roboto;
 font-style: normal;
@@ -197,8 +219,8 @@ color: #000000;
 position: absolute;
 width: 68px;
 height: 28px;
-left: 660px;
-top: 235px;
+left: 867px;
+top: 285px;
 
 font-family: Roboto;
 font-style: normal;
@@ -207,16 +229,16 @@ font-size: 24px;
 line-height: 28px;
 
 color: #000000;
-}
 
+}
 
 .nombreText {
 
 position: absolute;
-width: 86px;
-height: 28px;
-left: 419px;
-top: 235px;
+width: 89px;
+height: 27px;
+left: 483px;
+top: 285px;
 
 font-family: Roboto;
 font-style: normal;
@@ -225,7 +247,6 @@ font-size: 24px;
 line-height: 28px;
 
 color: #000000;
-
 }
 
 
@@ -234,8 +255,8 @@ color: #000000;
 position: absolute;
 width: 70px;
 height: 99px;
-left: 49px;
-top: 266px;
+left: 47px;
+top: 315px;
 
 border: 2px solid #000000;
 box-sizing: border-box;
@@ -246,8 +267,8 @@ box-sizing: border-box;
 position: absolute;
 width: 123px;
 height: 99px;
-left: 625px;
-top: 266px;
+left: 840px;
+top: 315px;
 
 border: 2px solid #000000;
 box-sizing: border-box;
@@ -258,8 +279,8 @@ box-sizing: border-box;
 position: absolute;
 width: 182px;
 height: 99px;
-left: 117px;
-top: 266px;
+left: 115px;
+top: 315px;
 
 border: 2px solid #000000;
 box-sizing: border-box;
@@ -268,314 +289,10 @@ box-sizing: border-box;
 .cuadroNombre1 {
 
 position: absolute;
-width: 330px;
+width: 212px;
 height: 99px;
-left: 297px;
-top: 266px;
-
-border: 2px solid #000000;
-box-sizing: border-box;
-}
-
-.avatarTextEdit {
-
-position: absolute;
-width: 104px;
-height: 68px;
-left: 156px;
-top: 284px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-color: #000000;
-}
-
-
-.activoTextEdit {
-
-position: absolute;
-width: 77px;
-height: 54px;
-left: 660px;
-top: 296px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-color: #000000;
-}
-
-
-.nombreTextEdit {
-
-position: absolute;
-width: 7px;
-height: 28px;
-left: 316px;
-top: 301px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-
-color: #000000;
-}
-
-
-.crearUsuarioText {
-
-position: absolute;
-width: 143px;
-height: 28px;
-left: 139px;
-top: 578px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-text-decoration-line: underline;
-
-color: #000000;
-/*style input*/
-background-color: white;
-border: none;
-outline: none;
-cursor: pointer;
-    
-}
-
-
-.modificarText {
-
-position: absolute;
-width: 102px;
-height: 28px;
-left: 393px;
-top: 578px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-text-decoration-line: underline;
-
-color: #000000;
-/*style input*/
-background-color: white;
-border: none;
-outline: none;
-cursor: pointer;
-    
-}
-
-
-.eliminarText {
-position: absolute;
-width: 95px;
-height: 28px;
-left: 607px;
-top: 578px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-text-decoration-line: underline;
-
-color: #000000;
-/*style input*/
-background-color: white;
-border: none;
-outline: none;
-cursor: pointer;
-}
-
-
-.iconMas{
-position: absolute;
-width: 30px;
-height: 26px;
-left: 107px;
-top: 578px;
-}
-
-.circuloSelect{
-
-position: absolute;
-width: 31px;
-height: 25px;
-left: 69px;
-top: 300px;
-
-border: 2px solid #000000;
-box-sizing: border-box;
-}
-
-.cuadroSeleccionar2 {
-
-position: absolute;
-width: 70px;
-height: 99px;
-left: 49px;
-top: 362px;
-
-border: 2px solid #000000;
-box-sizing: border-box;
-}
-
-.cuadroActivo2 {
-
-position: absolute;
-width: 123px;
-height: 99px;
-left: 625px;
-top: 362px;
-
-border: 2px solid #000000;
-box-sizing: border-box;
-}
-
-.cuadroAvatar2 {
-
-position: absolute;
-width: 182px;
-height: 99px;
-left: 117px;
-top: 362px;
-
-border: 2px solid #000000;
-box-sizing: border-box;
-}
-
-.cuadroNombre2 {
-
-position: absolute;
-width: 330px;
-height: 99px;
-left: 297px;
-top: 362px;
-
-border: 2px solid #000000;
-box-sizing: border-box;
-}
-
-.avatarTextEdit2 {
-
-position: absolute;
-width: 90px;
-height: 81px;
-left: 162px;
-top: 372px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-color: #000000;
-
-}
-
-
-.activoTextEdit2 {
-
-position: absolute;
-width: 7px;
-height: 28px;
-left: 678px;
-top: 398px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-
-color: #000000;
-
-}
-
-.nombreTextEdit2 {
-
-position: absolute;
-width: 7px;
-height: 28px;
-left: 316px;
-top: 397px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-
-color: #000000;
-}
-
-
-.circuloSelect2 {
-
-position: absolute;
-width: 31px;
-height: 25px;
-left: 69px;
-top: 396px;
-
-border: 2px solid #000000;
-box-sizing: border-box;
-}
-
-.cuadroSeleccionar3 {
-
-position: absolute;
-width: 70px;
-height: 99px;
-left: 49px;
-top: 459px;
-
-border: 2px solid #000000;
-box-sizing: border-box;
-}
-
-.cuadroActivo3 {
-
-position: absolute;
-width: 123px;
-height: 99px;
-left: 625px;
-top: 459px;
-
-border: 2px solid #000000;
-box-sizing: border-box;
-}
-
-.cuadroAvatar3 {
-
-position: absolute;
-width: 182px;
-height: 99px;
-left: 117px;
-top: 459px;
-
-border: 2px solid #000000;
-box-sizing: border-box;
-}
-
-.cuadroNombre3 {
-
-position: absolute;
-width: 330px;
-height: 99px;
-left: 297px;
-top: 459px;
+left: 416px;
+top: 315px;
 
 border: 2px solid #000000;
 box-sizing: border-box;
@@ -583,27 +300,71 @@ box-sizing: border-box;
 
 .avatarTextEdit3 {
 
-position: absolute;
-width: 71px;
-height: 66px;
-left: 167px;
-top: 481px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-color: #000000;
+    position: absolute;
+    width: 125px;
+    height: 76px;
+    left: 143px;
+    top: 327px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.avatarTextEdit2 {
+
+    position: absolute;
+    width: 125px;
+    height: 76px;
+    left: 143px;
+    top: 327px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
 }
 
 
-.activoTextEdit3 {
+.activoTextEdit {
+
+    position: absolute;
+    width: 112px;
+    height: 28px;
+    left: 846px;
+    top: 351px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 28px;
+    color: #000000;
+}
+
+
+.cuadroContracenia {
 
 position: absolute;
-width: 7px;
+width: 216px;
+height: 39px;
+left: 626px;
+top: 278px;
+
+background: #C4C4C4;
+border: 2px solid #000000;
+box-sizing: border-box;
+}
+
+.contraceniaText {
+
+position: absolute;
+width: 123px;
 height: 28px;
-left: 678px;
-top: 495px;
+left: 679px;
+top: 285px;
 
 font-family: Roboto;
 font-style: normal;
@@ -615,42 +376,54 @@ color: #000000;
 }
 
 
-.nombreTextEdit3 {
+.cuadroContracenia1 {
 
 position: absolute;
-width: 7px;
-height: 28px;
-left: 316px;
-top: 494px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-
-color: #000000;
-}
-
-
-.circuloSelect3 {
-
-position: absolute;
-width: 31px;
-height: 25px;
-left: 69px;
-top: 493px;
+width: 216px;
+height: 99px;
+left: 626px;
+top: 315px;
 
 border: 2px solid #000000;
 box-sizing: border-box;
 }
 
-.desplegarUsuariosText{
+.contraceniaTextEdit {
+
+    position: absolute;
+    width: 201px;
+    height: 28px;
+    left: 634px;
+    top: 351px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: medium;
+    line-height: 28px;
+    color: #000000;
+}
+
+
+.cuadroFecha {
+
 position: absolute;
-width: 275px;
-height: 59px;
-left: 53px;
-top: 234px;
+width: 123px;
+height: 39px;
+left: 295px;
+top: 278px;
+
+background: #C4C4C4;
+border: 2px solid #000000;
+box-sizing: border-box;
+}
+
+.fechaText {
+
+position: absolute;
+width: 65px;
+height: 28px;
+left: 324px;
+top: 285px;
 
 font-family: Roboto;
 font-style: normal;
@@ -659,11 +432,96 @@ font-size: 24px;
 line-height: 28px;
 
 color: #000000;
+}
 
-/* stule input */
+
+.cuadroFecha1 {
+
+position: absolute;
+width: 123px;
+height: 99px;
+left: 295px;
+top: 315px;
+
+border: 2px solid #000000;
+box-sizing: border-box;
+}
+
+.fechaTextEdit {
+
+    position: absolute;
+    width: 117px;
+    height: 28px;
+    left: 298px;
+    top: 351px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 28px;
+    color: #000000;
+}
+
+
+.nombreTextEdit {
+
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    left: 422px;
+    top: 351px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: medium;
+    line-height: 28px;
+    color: #000000;
+}
+
+
+.cancelarText {
+
+position: absolute;
+width: 105px;
+height: 28px;
+left: 645px;
+top: 430px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-decoration-line: underline;
+
+color: #000000;
+/*style input*/
 background-color: white;
 border: none;
 outline: none;
 cursor: pointer;
-;
+}
+
+
+.guardarText {
+
+position: absolute;
+width: 105px;
+height: 28px;
+left: 274px;
+top: 430px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-decoration-line: underline;
+
+color: #000000;
+/*style input*/
+background-color: white;
+border: none;
+outline: none;
+cursor: pointer;
 }

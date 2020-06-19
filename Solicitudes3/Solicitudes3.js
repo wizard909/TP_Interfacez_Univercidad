@@ -12,6 +12,21 @@ xhttp.onreadystatechange = function(){
     }
 }
 
+//TEXTO JSON LINKS//
+var xhttp = new XMLHttpRequest();
+let html;
+
+xhttp.open("GET","https://my-json-server.typicode.com/kevinmatias120/linkTest/db", true);
+xhttp.send();
+xhttp.onreadystatechange = function(){
+    if(this.readyState == 4 && this.status == 200){
+        /*usamos los datos del archivo json*/
+        html = JSON.parse(this.responseText);
+        /*console.log(datos);
+        console.log(datos.Solicitudes[0]);*/
+    }
+}
+
 var contador = 0;
 
 function darSolicitud(){
@@ -62,7 +77,7 @@ function darSolicitud(){
     <div class="fechaText">Fecha</div>
     
     <img class="iconMas" src="images/iconMas.png" >
-    <a href="";" ><div class="crearSolicitudText">Crear solictud</div></a>
+    <input type="button" class="crearSolicitudText" value="Crear Solicitud" onclick="crearSolicitud();">
     `;
 
     var usuarios = document.getElementById("miSolicitud");
@@ -75,7 +90,7 @@ function valorCheck1(sujeto){
     if(sujeto.checked){
         funcion.innerHTML=`
         <input type="button" class="eliminarText" value="Eliminar" onclick="eliminar(1);">
-        <a href=""><div class="modificarText">Modificar</div></a>
+        <input type="button" class="ModificarText" value="Modificar" onclick="modificar(1);">
         `;
         var check1=document.getElementById("check2").checked = false; 
         var check1=document.getElementById("check3").checked = false; 
@@ -91,7 +106,7 @@ function valorCheck2(sujeto){
     if(sujeto.checked){
         funcion.innerHTML=`
         <input type="button" class="eliminarText" value="Eliminar" onclick="eliminar(2);">
-        <a href=""><div class="modificarText">Modificar</div></a>
+        <input type="button" class="ModificarText" value="Modificar" onclick="modificar(2);">
         `;
         var check1=document.getElementById("check1").checked = false; 
         var check1=document.getElementById("check3").checked = false; 
@@ -106,7 +121,7 @@ function valorCheck3(sujeto){
     if(sujeto.checked){
         funcion.innerHTML=`
         <input type="button" class="eliminarText" value="Eliminar" onclick="eliminar(3);">
-        <a href=""><div class="modificarText">Modificar</div></a>
+        <input type="button" class="ModificarText" value="Modificar" onclick="modificar(3);">
         `;
         var check1=document.getElementById("check1").checked = false; 
         var check1=document.getElementById("check2").checked = false; 
@@ -124,6 +139,40 @@ function eliminar(numero){
 
     contador++;
     if(contador == 3){
-        /*otra pagina*/
+        location.href =`${html.Redireccion[0].NoHaySolicitudes}`;
     }
+    
+}
+
+function inicio(){
+    location.href =`${html.Redireccion[1].Inicio}`;
+}
+
+function misSolicitudes(){
+    location.href =`${html.Redireccion[1].MisSolicitudes}`;
+}
+
+function usuarios(){
+    location.href =`${html.Redireccion[1].Usuarios}`;
+}
+
+function salir(){
+    location.href =`${html.Redireccion[1].Salir}`;
+}
+
+function modificar(numero){
+    var solActual = `sol${numero}`;
+
+    if(solActual == "sol1"){
+        location.href =`${html.Redireccion[0].Solicitud1}`;
+    }else if(solActual == "sol2"){
+        location.href =`${html.Redireccion[0].Solicitud2}`;
+    }else{
+        location.href =`${html.Redireccion[0].Solicitud3}`;
+    }
+
+}
+
+function crearSolicitud(){
+    location.href =`${html.Redireccion[0].NuevoSolicitud}`;
 }

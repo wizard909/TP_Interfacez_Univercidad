@@ -21,7 +21,7 @@ background: url(ScreenShot_20200603105759.png);
 .inicioText {
 
 position: absolute;
-width: 62.61px;
+width: 70px;
 height: 28.46px;
 left: 62.61px;
 top: 149.88px;
@@ -107,9 +107,9 @@ background: url(61208.png);
 .salirText {
 
 position: absolute;
-width: 48.32px;
+width: 60px;
 height: 28.19px;
-left: 1293.31px;
+left: 1274px;
 top: 152.01px;
 
 font-family: Roboto;
@@ -141,15 +141,6 @@ top: 195px;
 border: 5.03351px solid #2CC6A1;
 }
 
-.Group1 {
-
-position: absolute;
-width: 707px;
-height: 117px;
-left: 49px;
-top: 229px;
-
-}
 
 .cuadroSeleccionar {
 
@@ -291,8 +282,8 @@ color: #000000;
 position: absolute;
 width: 157px;
 height: 28px;
-left: 137px;
-top: 321px;
+left: 326px;
+top: 318px;
 
 font-family: Roboto;
 font-style: normal;
@@ -310,72 +301,14 @@ cursor: pointer;
 }
 
 
-.modificarText {
-
-position: absolute;
-width: 102px;
-height: 28px;
-left: 394px;
-top: 320px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-text-decoration-line: underline;
-
-color: #000000;
-}
-
-
-.eliminarText {
-
-position: absolute;
-width: 87px;
-height: 28px;
-left: 596px;
-top: 320px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-text-decoration-line: underline;
-
-color: #000000;
-}
 
 .iconMas{
 
 position: absolute;
 width: 30px;
 height: 26px;
-left: 105px;
+left: 295;
 top: 321px;
 
 }
 
-.miSolicitudText {
-
-position: absolute;
-width: 172.65px;
-height: 28.46px;
-left: 48px;
-top: 218px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 25.4534px;
-line-height: 30px;
-text-decoration-line: underline;
-
-color: #000000;
-/*style Input*/
-background-color: white;
-border: none;
-outline: none;
-cursor: pointer;
-}

@@ -22,7 +22,7 @@ function misSolicitudes(){
 }
 
 function usuarios(){
-    location.href =`${html.Redireccion[1].Usuarios}`;
+    location.href =`${html.Redireccion[1].Usuarios}`; 
 }
 
 function salir(){
@@ -30,9 +30,9 @@ function salir(){
 }
 
 function guardar(){
-    location.href =`${html.Redireccion[0].Guardar}`;
+    location.href =`${html.Redireccion[2].Guardar}`;
 }
 
 function cancelar(){
-    location.href =`${html.Redireccion[0].Cancelar}`;
+    location.href =`${html.Redireccion[2].Cancelar}`;
 }

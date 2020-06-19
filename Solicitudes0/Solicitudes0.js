@@ -1,40 +1,34 @@
 // TEXTO JSON REDIRECCION//
 /* Texto del JSON*/
 var xhttp = new XMLHttpRequest();
-let datos;
+let html;
 
 xhttp.open("GET","https://my-json-server.typicode.com/kevinmatias120/linkTest/db", true);
 xhttp.send();
 xhttp.onreadystatechange = function(){
     if(this.readyState == 4 && this.status == 200){
         /*usamos los datos del archivo json*/
-        datos = JSON.parse(this.responseText);
+        html = JSON.parse(this.responseText);
         /*console.log(datos);*/
     }
 }
 
-
 function inicio(){
-    console.log("inicio");
-    location.href="https://www.google.com.ar/";
+    location.href =`${html.Redireccion[1].Inicio}`;
 }
 
 function misSolicitudes(){
-    console.log("soolicittudes");
-    location.href="";
+    location.href =`${html.Redireccion[1].MisSolicitudes}`;
 }
 
 function usuarios(){
-    console.log("usuarios");
-    location.href="";
-}
-
-function crearSolicitudes(){
-    console.log("crear");
-    location.href="";
+    location.href =`${html.Redireccion[1].Usuarios}`;
 }
 
 function salir(){
-    console.log("salir");
-    location.href="";
+    location.href =`${html.Redireccion[1].Salir}`;
+}
+
+function crearSolicitudes(){
+    location.href =`${html.Redireccion[0].CrearNuevo}`;
 }
