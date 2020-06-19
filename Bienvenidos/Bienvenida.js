@@ -19,7 +19,7 @@ function inicio(){
 }
 
 function misSolicitudes(){
-    html.Redireccion[1].misSolicitudes;
+    html.Redireccion[1].MisSolicitudes;
 }
 
 function usuarios(){
